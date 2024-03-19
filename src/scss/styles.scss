@@ -1,0 +1,47 @@
+$body-bg: #f4f4f4;
+$font-family-base: "Figtree";
+$section-bg-color: #004f24;
+$title-text-color: #3aaa35;
+$secondary-text-color: #3a3a3a;
+
+.bg-section-bg-color {
+  background-color: $section-bg-color;
+}
+
+// Large screens
+@media (max-width: 1250px) {
+  .ot-logo-color {
+    width: 200px;
+    height: auto;
+  }
+
+  .navbar-collapse .navbar-nav {
+    gap: 0;
+  }
+
+  .navbar-collapse .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+
+  .nav-end h4 {
+    font-size: 18px;
+  }
+
+  .nav-end .nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+// Medium screens
+@media (max-width: 992px) {
+  .hero-description {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+}
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+// Text Color: #3aaa35;
+// Secondary text color: #3a3a3a
+// Background Color: #004f24
