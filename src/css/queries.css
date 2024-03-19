@@ -1,0 +1,41 @@
+/* Large screens */
+@media (max-width: 1250px) {
+  .ot-logo-color {
+    width: 200px;
+    height: auto;
+  }
+
+  .navbar-collapse .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+
+  .nav-end h4 {
+    font-size: 18px;
+  }
+
+  .nav-end .nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+/* Medium screens */
+@media (max-width: 992px) {
+  .hero-description {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  .hero-title {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+
+  .hero .hero-title h4 {
+    font-size: 20px;
+  }
+
+  .hero .hero-title h1 {
+    font-size: 50px;
+  }
+}
