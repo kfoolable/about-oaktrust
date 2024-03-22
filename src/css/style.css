@@ -1,3 +1,29 @@
-.hero-title h1 {
+h1 {
   font-size: 60px;
+}
+
+.container .col {
+  margin-bottom: 2rem;
+}
+
+.container .col:last-child {
+  margin-bottom: 0;
+}
+
+.col-container h5 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #3aaa35;
+}
+
+.col-container p {
+  font-size: 18px;
+  color: #004f24;
+}
+
+.col-container a {
+  text-decoration: none;
+  color: #004f24;
+  font-weight: bold;
+  font-size: 18px;
 }

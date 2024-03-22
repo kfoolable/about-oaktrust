@@ -1,5 +1,9 @@
-/* Large screens */
-@media (max-width: 1250px) {
+/* Extra extra large screens */
+@media (min-width: 1400px) {
+}
+
+/* Extra large screens */
+@media (max-width: 1200px) {
   .ot-logo-color {
     width: 200px;
     height: auto;
@@ -16,17 +20,26 @@
   .nav-end .nav .nav-link {
     font-size: 14px;
   }
+
+  .team-img {
+    width: 290px;
+    height: 290px;
+  }
 }
 
-/* Medium screens */
+/* Large screens */
 @media (max-width: 992px) {
   .hero-description {
     margin: 0 1.5rem 0 1.5rem;
   }
 }
 
-/* Small screens */
+/* Medium screens */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
   .hero-title {
     margin: 0 1.5rem 0 1.5rem;
   }
@@ -34,8 +47,10 @@
   .hero .hero-title h4 {
     font-size: 20px;
   }
+}
 
-  .hero .hero-title h1 {
-    font-size: 50px;
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px !important;
   }
 }
