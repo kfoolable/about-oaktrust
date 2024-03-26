@@ -1,5 +1,6 @@
 h1 {
   font-size: 60px;
+  font-family: "Raleway", sans-serif;
 }
 
 .container .col {
@@ -26,4 +27,102 @@ h1 {
   color: #004f24;
   font-weight: bold;
   font-size: 18px;
+}
+
+#team-info-collapse {
+  position: relative;
+}
+
+#close-btn {
+  /* position: absolute; */
+  /* right: 0; */
+  color: #004f24;
+}
+
+.ot .bi {
+  color: #3aaa35;
+  font-size: 20px;
+}
+
+.ot {
+  display: flex;
+  gap: 1rem;
+}
+
+.qna p {
+  padding: 0;
+  margin: 0;
+}
+
+.ot-question {
+  font-weight: bold;
+  color: #004f24;
+}
+
+.ot-name {
+  color: #3aaa35;
+}
+
+.community {
+  position: relative;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(46, 46, 46, 0.5),
+      rgba(46, 46, 46, 0.5)
+    ),
+    url("../assets/OakTrust-community.jpg");
+  background-size: cover;
+  background-position: center 30%;
+  height: 500px;
+}
+
+.community-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.community-text h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.btn-ot {
+  background-color: #3aaa35;
+  color: #fff;
+  min-height: 40px;
+  border-radius: 20px;
+}
+
+.btn-ot:hover {
+  background-color: rgb(0, 142, 64);
+}
+
+.rooted {
+  font-family: "Kalam", sans-serif;
+}
+
+.footer {
+  background-color: #004f24;
+  color: #fff;
+}
+
+.footer .container p {
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.footer .container p:last-child {
+  margin-bottom: 0;
+}
+
+.hr-title {
+  color: #3aaa35;
+}
+
+.socials a {
+  color: #fff;
 }

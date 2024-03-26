@@ -15,15 +15,18 @@
       rel="stylesheet"
     />
 
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
     <script type="module" src="js/main.js"></script>
     <title>About - OakTrust</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg bg-body-bg mx-lg-5"
-      style="height: 150px"
-    >
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-xl bg-body-bg" style="height: 150px">
+      <div class="container">
         <img
           src="assets/Oak-Trust-Full-Logo-Color.png"
           class="img-fluid ot-logo-color"
@@ -45,7 +48,7 @@
           style="background-color: #f4f4f4"
           id="navbarScroll"
         >
-          <ul class="navbar-nav m-auto my-2 my-lg-0 gap-3">
+          <ul class="navbar-nav m-auto my-lg-0 gap-3 text-center">
             <li class="nav-item">
               <a class="nav-link fw-bold" href="#">Services</a>
             </li>
@@ -65,27 +68,28 @@
               <a class="nav-link fw-bold" href="#">Contact</a>
             </li>
           </ul>
-          <div class="nav-end text-lg-center">
+          <div
+            class="nav-end text-center ms-xl-4 mt-4"
+            style="white-space: nowrap"
+          >
             <h4 class="mb-0 fw-bold" style="color: #3aaa35">(843) 804-9991</h4>
-            <ul class="nav align-items-center justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link p-1 fw-bold" style="color: #004f24" href="#"
-                  >Resident Portal</a
-                >
-              </li>
+            <div
+              class="portal d-flex justify-content-center align-items-center"
+            >
+              <a class="nav-link p-1 fw-bold" style="color: #004f24" href="#"
+                >Resident Portal</a
+              >
               <span class="fw-bold">|</span>
-              <li class="nav-item">
-                <a class="nav-link p-1 fw-bold" style="color: #004f24" href="#"
-                  >Owner Portal</a
-                >
-              </li>
-            </ul>
+              <a class="nav-link p-1 fw-bold" style="color: #004f24" href="#"
+                >Owner Portal</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </nav>
 
-    <!-- Hero -->
+    <!-- Hero Section -->
     <section
       class="hero bg-section-bg-color py-5 text-center d-flex flex-column align-items-center"
       style="color: #fff"
@@ -155,7 +159,7 @@
       </div>
     </section>
 
-    <!-- OT Team Members -->
+    <!-- OT Team Members Section -->
     <section
       class="team bg-body-bg d-flex flex-column justify-content-center align-items-center"
     >
@@ -305,10 +309,176 @@
           </div>
         </div>
 
+        <!-- Team Member Info Collapse -->
         <div class="collapse mt-5" id="team-info-collapse">
-          <h1>It works!</h1>
+          <div class="d-flex justify-content-end p-3">
+            <a
+              class="close"
+              data-bs-toggle="collapse"
+              href="#team-info-collapse"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              <i class="bi bi-x-circle h5 mb-0" id="close-btn"></i>
+            </a>
+          </div>
+
+          <div class="row row-cols-1 row-cols-lg-2 mx-0">
+            <div class="col d-flex justify-content-center">
+              <img
+                src="assets/Janet-Casual-scaled 1.jpg"
+                alt="Janet Fields Vid Thumbnail"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col mb-4">
+              <div class="ot-info-container">
+                <h1 class="ot-name mb-4">Janet Fields</h1>
+                <div class="row row-cols-1 row-cols-sm-2">
+                  <div class="col mb-0">
+                    <div class="ot email">
+                      <i class="bi bi-envelope"></i>
+                      <span>janet@oaktrustproperties.com</span>
+                    </div>
+                    <div class="ot num">
+                      <i class="bi bi-telephone"></i>
+                      <span>(843) 804-9991 Ext. 101</span>
+                    </div>
+                    <div class="ot linkedin">
+                      <i class="bi bi-linkedin"></i>
+                      <a href="#" class="text-decoration-none text-black"
+                        >Connect With Me</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="ot quote">
+                      <i class="bi bi-quote"></i>
+                      <span
+                        >Never say never, because limits, like fears, are often
+                        just an illusion.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="qna mt-4 text-center text-lg-start">
+                  <p class="ot-question">
+                    What year did you join the property management industry?
+                  </p>
+                  <p>
+                    For as long as I can remember. Officially on staff in 2013.
+                  </p>
+
+                  <p class="ot-question pt-3">Where are you from?</p>
+                  <p>
+                    I am a native of Charleston and absolutely love raising my
+                    two children, Westin & Henry alongside my partner Brodie.
+                  </p>
+
+                  <p class="ot-question pt-3">Favorite movie?</p>
+                  <p>
+                    I love just about any Will Ferrel including Stepbrothers,
+                    Anchorman, and Ricky Bobby.
+                  </p>
+
+                  <p class="ot-question pt-3">Any hobbies?</p>
+                  <p>
+                    I have a range of hobbies and a deep passion for lifelong
+                    leearning. My heart lies with nature, and I find joy in
+                    nurturing a wildlife-friendly garden at my home. I cherish
+                    moments spent hiking with friends and my loyal dog, cycling
+                    alongside my family or simply immersing myself in the serene
+                    embrace of the great outdoors. The sounds of nature are my
+                    symphony, and the open air is where I feel most at home.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Commmunity Section -->
+    <section class="community">
+      <!-- <div
+        class="community-img-box"
+        role="img"
+        aria-label="OakTrust Community Group"
+      ></div> -->
+
+      <div
+        class="community-text d-flex align-items-center justify-content-center text-center flex-wrap gap-4"
+      >
+        <h1>We're <span class="rooted">Rooted</span> in community.</h1>
+        <button class="btn btn-ot">Learn More</button>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer py-5">
+      <div class="container pb-5">
+        <div
+          class="row row-cols-1 row-cols-sm-3 row-cols-lg-5 justify-content-center text-center text-lg-start"
+        >
+          <div class="col">
+            <img
+              src="assets/OakTrust-White.png"
+              alt=""
+              class="img-fluid mb-5 img-footer"
+            />
+
+            <h4 class="mb-2 fw-bold text-nowrap">(843) 804-9991</h4>
+            <h6 class="fw-bold">info@oaktrustproperties.com</h6>
+          </div>
+          <div class="col">
+            <h3 class="mb-4">Hours</h3>
+            <p class="fw-bold hr-title">Remote Team</p>
+            <p>Monday – Friday</p>
+            <p>8am – 5pm</p>
+            <p class="fw-bold hr-title">Office Team</p>
+            <p>Monday – Friday</p>
+            <p>By Appointment Only</p>
+          </div>
+          <div class="col">
+            <h3 class="mb-3">Contact Us</h3>
+            <div class="d-flex flex-column btns">
+              <button class="btn btn-ot mb-3">General Inquiries</button>
+              <button class="btn btn-ot mb-3">Rental Services</button>
+              <button class="btn btn-ot mb-3">Owner Services</button>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="mb-3">Portals</h3>
+            <div class="d-flex flex-column btns">
+              <button class="btn btn-ot mb-3">Owner Login</button>
+              <button class="btn btn-ot mb-3">Renter Login</button>
+            </div>
+          </div>
+          <div class="col">
+            <h3 clas="mb-3">Social</h3>
+            <div class="socials d-flex gap-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container policy text-center">
+        <p>
+          OakTrust Properties is committed to ensuring that its website is
+          accessible to people with disabilities. All the pages on our website
+          will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A
+          conformance. Any issues should be reported to email@email.com. Website
+          Accessibility Policy
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

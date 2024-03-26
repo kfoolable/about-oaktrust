@@ -3,13 +3,13 @@
 }
 
 /* Extra large screens */
-@media (max-width: 1200px) {
-  .ot-logo-color {
+@media (min-width: 1200px) {
+  /* .ot-logo-color {
     width: 200px;
     height: auto;
-  }
+  } */
 
-  .navbar-collapse .navbar-nav .nav-link {
+  /* .navbar-collapse .navbar-nav .nav-link {
     font-size: 14px;
   }
 
@@ -19,11 +19,15 @@
 
   .nav-end .nav .nav-link {
     font-size: 14px;
-  }
+  } */
 
   .team-img {
     width: 290px;
     height: 290px;
+  }
+
+  .btns button {
+    align-self: start;
   }
 }
 
@@ -31,6 +35,20 @@
 @media (max-width: 992px) {
   .hero-description {
     margin: 0 1.5rem 0 1.5rem;
+  }
+
+  .ot-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btns {
+    align-items: center;
+  }
+
+  .socials {
+    justify-content: center;
   }
 }
 
@@ -46,6 +64,11 @@
 
   .hero .hero-title h4 {
     font-size: 20px;
+  }
+
+  .img-footer {
+    width: 250px;
+    height: auto;
   }
 }
 
